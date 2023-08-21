@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gerador de Dados</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de Dados</h1>
+    <div id="dataDisplay">
+        <div id="profileImageContainer" style="display: none;">
+            <img id="profileImage" src="" alt="Imagem de perfil">
+            <button class="copyButton" onclick="copyToClipboard('profileImage')">Copiar Imagem</button>
+        </div>
+        <p><strong>Nome:</strong> <span id="nome"></span> <button class="copyButton" onclick="copyToClipboard('nome')">Copiar</button></p>
+        <p><strong>CPF:</strong> <span id="cpf"></span> <button class="copyButton" onclick="copyToClipboard('cpf')">Copiar</button></p>
+        <p><strong>Cargo:</strong> <span id="cargo"></span> <button class="copyButton" onclick="copyToClipboard('cargo')">Copiar</button></p>
+        <p><strong>Time:</strong> <span id="time"></span> <button class="copyButton" onclick="copyToClipboard('time')">Copiar</button></p>
+    </div>
+    <button id="generateButton">Gerar Dados</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
