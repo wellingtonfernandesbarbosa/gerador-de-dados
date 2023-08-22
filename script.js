@@ -272,39 +272,49 @@ const times = [
 let lastGeneratedImage = null;
 
 const imagensHomens = [
-  "https://img.freepik.com/fotos-premium/um-homem-com-barba-e-uma-camisa-que-diz-esta-sorrindo_662214-44495.jpg",
-  "https://img.freepik.com/fotos-gratis/retrato-de-jovem-sorridente-bonito-em-uma-camiseta-branca-isolado-no-branco_186202-8965.jpg",
-    "https://img.freepik.com/fotos-gratis/feche-o-retrato-do-macho-europeu-bonito-encaracolado_176532-8133.jpg",
-    "https://img.freepik.com/fotos-gratis/homem-retrato-rindo_23-2148859448.jpg",
-    "https://img.freepik.com/fotos-gratis/africano-alegre-com-estreitos-olhos-escuros-e-cabelo-fofo-vestido-com-uma-elegante-camisa-branca_273609-14082.jpg",
-    "https://img.freepik.com/fotos-gratis/homem-bonito-e-confiante-sorrindo-com-as-maos-cruzadas-no-peito_176420-18743.jpg",
-    "https://img.freepik.com/fotos-premium/sorriso-de-retrato-e-homem-com-confianca-positiva-e-despreocupado-contra-um-fundo-de-estudio-cinza-enfrentar-pessoa-do-sexo-masculino-e-humano-com-uma-atitude-alegre-liberdade-e-modelo-com-alegria-canada-e-relaxar_590464-177008.jpg",
-    "https://img.freepik.com/fotos-gratis/jovem-homem-posando-isolado-contra-a-parede-em-branco-do-estudio_273609-12356.jpg",
-    "https://img.freepik.com/fotos-gratis/retrato-de-homem-barbudo-bonito_23-2149880047.jpg",
-    "https://img.freepik.com/fotos-premium/retrato-de-um-jovem-casual-feliz-em-pe_171337-29744.jpg",
-    "https://img.freepik.com/fotos-gratis/jovem-barbudo-com-camisa-listrada_273609-5677.jpg"
-];
+  "./assets/images/homens/imagem.jpg",
+  "./assets/images/homens/imagem1.jpg",
+  "./assets/images/homens/imagem2.jpg",
+  "./assets/images/homens/imagem3.jpg",
+  "./assets/images/homens/imagem4.jpg",
+  "./assets/images/homens/imagem5.jpg",
+  "./assets/images/homens/imagem6.jpg",
+  "./assets/images/homens/imagem7.jpg",
+  "./assets/images/homens/imagem8.jpg",
+  "./assets/images/homens/imagem9.jpg",
+  "./assets/images/homens/imagem10.jpg"
+]
 
 const imagensMulheres = [
-    "https://img.freepik.com/fotos-gratis/mulher-jovem-e-bonita-em-sueter-rosa-quente-aparencia-natural-sorridente-retrato-ligado-isolado-cabelo-comprido_285396-896.jpg",
-    "https://img.freepik.com/fotos-gratis/close-de-uma-jovem-adoravel-sorridente-com-um-coque-de-cabelo-escuro-e-cacheado_295783-638.jpg",
-    "https://img.freepik.com/fotos-gratis/conceito-de-felicidade-bem-estar-e-confianca-mulher-afro-americana-atraente-alegre-corte-de-cabelo-encaracolado-peito-de-bracos-cruzados-em-pose-poderosa-e-segura-sorrindo-determinado-usar-sueter-amarelo_176420-35063.jpg",
-    "https://img.freepik.com/fotos-gratis/retrato-de-uma-linda-mulher-sorridente-tocando-seu-rosto-com-maquiagem-natural-e-parecendo-alegre-a-frente-em-pe-contra-uma-parede-branca_176420-38914.jpg",
-    "https://img.freepik.com/fotos-gratis/conceito-de-felicidade-bem-estar-e-confianca-mulher-afro-americana-atraente-alegre-corte-de-cabelo-encaracolado-peito-de-bracos-cruzados-em-pose-poderosa-e-segura-sorrindo-determinado-usar-sueter-amarelo_176420-35063.jpg",
-    "https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-bonita-em-pe-na-parede-cinza_231208-10760.jpg",
-    "https://img.freepik.com/fotos-gratis/estilo-de-vida-beleza-e-moda-conceito-de-emocoes-de-pessoas-jovem-gerente-de-escritorio-feminino-asiatico-ceo-com-expressao-satisfeita-em-pe-sobre-um-fundo-branco-sorrindo-com-os-bracos-cruzados-sobre-o-peito_1258-59329.jpg",
-    "https://img.freepik.com/fotos-premium/jovem-mulher-bonita-olhando-feliz-e-pateta-com-um-sorriso-largo-divertido-e-maluco-e-olhos-bem-abertos-contra-uma-parede-branca_1194-38831.jpg",
-    "https://img.freepik.com/fotos-premium/mulher-negra-com-um-corte-de-cabelo-curto-em-estudio-sorrindo-e-vestindo-vestido_633478-1562.jpg",
-    "https://img.freepik.com/fotos-gratis/close-up-foto-de-estudio-da-bela-modelo-de-mulher-jovem-mestica-com-cabelo-escuro-e-encaracolado_273609-13870.jpg",
-  "https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-mulher-bonita-com-maquiagem-olhos-esfumacados-muito-jovem-adulta-posando-no-estudio-closeup-rosto-feminino-atraente_186202-4439.jpg",
-  "https://img.freepik.com/fotos-premium/rosto-de-jovem-em-ia-generativa-de-fundo-branco_849906-20048.jpg",
-    "https://img.freepik.com/fotos-gratis/close-up-tiro-de-mulher-bonita-com-dentes-perfeitos-e-pele-limpa-escura-descansando-dentro-de-casa-sorrindo-alegremente-depois-de-receber-boas-noticias-positivas_273609-1248.jpg"
+  "./assets/images/mulheres/imagem.jpg",
+  "./assets/images/mulheres/imagem1.jpg",
+  "./assets/images/mulheres/imagem2.jpg",
+  "./assets/images/mulheres/imagem3.jpg",
+  "./assets/images/mulheres/imagem4.jpg",
+  "./assets/images/mulheres/imagem5.jpg",
+  "./assets/images/mulheres/imagem6.jpg",
+  "./assets/images/mulheres/imagem7.jpg",
+  "./assets/images/mulheres/imagem8.jpg",
+  "./assets/images/mulheres/imagem9.jpg",
+  "./assets/images/mulheres/imagem10.jpg",
+  "./assets/images/mulheres/imagem11.jpg",
+  "./assets/images/mulheres/imagem12.jpg"  
 ];
 
 const generateButton = document.getElementById("generateButton");
 generateButton.addEventListener("click", generateData);
 
 function generateData() {
+  document.getElementById('dataDisplay').innerHTML = `<div id="profileImageContainer" style="display: none;">
+    <img id="profileImage" src="" alt="Imagem de perfil">
+    <button class="copyButton" onclick="copyToClipboard('profileImage')">Copiar Imagem</button>
+    </div>
+    <p><strong>Nome:</strong> <span id="nome"></span> <button class="copyButton" onclick="copyToClipboard('nome')">Copiar</button></p>
+    <p><strong>CPF:</strong> <span id="cpf"></span> <button class="copyButton" onclick="copyToClipboard('cpf')">Copiar</button></p>
+    <p><strong>Cargo:</strong> <span id="cargo"></span> <button class="copyButton" onclick="copyToClipboard('cargo')">Copiar</button></p>
+    <p><strong>Time:</strong> <span id="time"></span> <button class="copyButton" onclick="copyToClipboard('time')">Copiar</button></p>`
+
+
   const genero = Math.random() < 0.5 ? "masculino" : "feminino";
   const nome = generateFullName(genero);
   const cpf = generateRandomCPF();
